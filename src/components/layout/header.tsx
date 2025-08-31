@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { Button } from "../ui/button";
+import { api } from "@/lib/axios";
 
 export const Header = () => {
     return (
