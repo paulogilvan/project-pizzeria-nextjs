@@ -1,8 +1,6 @@
-"use client"
-
 import Link from "next/link";
 import { Button } from "../ui/button";
-import { api } from "@/lib/axios";
+import { CartButton } from "../cart/cart-button";
 
 export const Header = () => {
     return (
@@ -12,7 +10,7 @@ export const Header = () => {
             </Link>
             <div className="flex gap-2">
                 <Button>Login / Cadastro</Button>
-                <Button>Carrinho</Button>
+                <CartButton />
             </div>
         </header>
     );
